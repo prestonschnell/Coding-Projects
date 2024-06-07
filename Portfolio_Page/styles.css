@@ -1,0 +1,276 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'impact', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: #e9e0d2;
+}
+
+h1 {
+    width: 100%;
+    color: black;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.diner1 {
+    width: 1000px;
+    height: 600px;
+    border: 5px solid black;
+    align-items: center;
+    text-align: center;
+    float: left;
+}
+
+.diner1 border {
+    margin-left: 200px;
+}
+
+.diner1 img {
+    width: 100%;
+    height: 100%;
+}
+
+.kitchen {
+    width: 1000px;
+    height: 600px;
+    border: 5px solid black;
+    align-items: center;
+    text-align: center;
+    float: right;
+}
+
+.kitchen border {
+    margin-left: 200px;
+}
+
+.kitchen img {
+    width: 100%;
+    height: 100%;
+}
+
+.office {
+    width: 1000px;
+    height: 600px;
+    border: 5px solid black;
+    align-items: center;
+    text-align: center;
+    float: left;
+}
+
+.office border {
+    margin-left: 200px;
+}
+
+.office img {
+    width: 100%;
+    height: 100%;
+}
+
+.viz {
+    width: 1000px;
+    height: 600px;
+    border: 5px solid black;
+    align-items: center;
+    text-align: center;
+    float: right;
+}
+
+.viz border {
+    margin-left: 200px;
+}
+
+.viz img {
+    width: 100%;
+    height: 100%;
+}
+
+.description1 {
+    width: 400px;
+    height: 600px;
+    align-items: center;
+    text-align: center;
+    padding: 20px 20px 20px 50px;
+    float: right;
+}
+
+.description1 p {
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.description2 {
+    width: 400px;
+    height: 600px;
+    align-items: center;
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+    float: left;
+}
+
+.description2 p {
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.description3 {
+    width: 400px;
+    height: 600px;
+    align-items: center;
+    text-align: center;
+    padding: 20px 20px 20px 50px;
+    float: right;
+}
+
+.description3 p {
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.description4 {
+    width: 400px;
+    height: 600px;
+    align-items: center;
+    text-align: center;
+    padding: 20px 20px 20px 50px;
+    float: left;
+}
+
+.description4 p {
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.description5 {
+    width: 400px;
+    height: 600px;
+    align-items: center;
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+    float: right;
+}
+
+.description5 p {
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.description6 {
+    width: 400px;
+    height: 600px;
+    align-items: center;
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+    float: left;
+}
+
+.description6 p {
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+
+
+.container {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 20px 20px 20px;
+    margin: auto;
+
+}
+
+.container button {
+    width: 200px;
+    height: 35px;
+    color: black;
+    border: 1px solid black;
+    display: inline-block;
+    align-items: right;
+    text-align: center;
+    justify-content: space-between;
+}
+.container-image {
+    width: 110px;
+    height: 50px;
+    border-radius: 1px;
+    background: white;
+    align-items: center;
+    text-align: center;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 2px;
+    padding-right: 2px;
+    
+}
+
+.container-image img {
+    width: 100%;
+    height: 100%;
+    border: 2px solid black;
+}
+.container h1 {
+    align-items: left;
+    padding-right: 800px;;
+    color: black;
+}
+
+.portfolio h1 {
+    color: black;
+}
+
+.empty {
+    height: 100px;
+    border-top: 5px solid black;
+}
+
+.main {
+    align-items: center;
+    text-align: center;
+    padding-bottom: 600px;
+    padding-left: 20px;
+    padding-right: 50px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.animation {
+    border-bottom: 2px solid black;
+}
+
+.portal {
+    width: 1000px;
+    height: 600px;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    float: right;
+}
+
+.portal video {
+    width: 100%;
+    height: 100%;
+}
+
+.space {
+    width: 1000px;
+    height: 600px;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    float: left;
+}
+
+.space video {
+    width: 100%;
+    height: 100%;
+}
+
