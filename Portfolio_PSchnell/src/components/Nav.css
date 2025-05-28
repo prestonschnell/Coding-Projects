@@ -1,0 +1,45 @@
+.nav-bar {
+    border-bottom: 2px solid #66b2b2;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 120px;
+    color: white;
+}
+
+.logo {
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    height: 100px;
+    border-radius: 50px;
+    border: 1px solid #66b2b2;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    font-size: 18px;
+    gap: 50px;
+}
+
+.buttons li {
+    background: #66b2b2;
+    color: white;
+    border-radius: 100px;
+}
+
+button {
+    background: #66b2b2;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 100px;
+}
+

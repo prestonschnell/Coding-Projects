@@ -1,0 +1,11 @@
+.headers-container {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    color: white;
+    font-size: 25px;
+    /* border: 2px solid white; */
+    padding: 150px 0px;
+}
