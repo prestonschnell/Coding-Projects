@@ -9,3 +9,13 @@
     /* border: 2px solid white; */
     padding: 150px 0px;
 }
+
+.headers-box {
+    height: 100%;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid white;
+    padding: 50px;
+}
