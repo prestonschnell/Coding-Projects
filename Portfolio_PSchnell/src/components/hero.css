@@ -10,10 +10,6 @@
     /* border: 2px solid black; */
 }
 
-.hero-container background= {
-    width: 50%;
-}
-
 #hero-header {
     max-width: 575px;
     font-size: 50px;

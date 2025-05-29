@@ -30,7 +30,7 @@ const Nav = () => {
             }}>Projects</button></li>
             <li><button onClick={()=> {
               window.scroll({
-                top: 4300,
+                top: 10000,
                 behavior: 'smooth'
               })
             }}>Contact</button></li>
