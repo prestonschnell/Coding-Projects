@@ -26,6 +26,13 @@ border: 2px solid #444952;
 border-radius: 50px;
 }
 
+/* .image-container {
+    max-height: 100%;
+    width: 1200px;
+    border: 2px solid #444952;
+    border-radius: 50px;
+} */
+
 .project-info {
 max-width: 500px;
 max-height: fit-content;

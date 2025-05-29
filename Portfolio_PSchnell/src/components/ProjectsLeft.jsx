@@ -1,11 +1,14 @@
 import React from 'react'
 import "./Projects.css"
+import ImageScroller from './ImageScroller';
+import stoneBridgeSlides from './stoneBridgeSlides';
 
 const ProjectsLeft = (props) => {
+  
   return (
     <div className='projects-container'>
         <div className="image-container">
-            <img src={props.image} alt="" />
+            <ImageScroller slides={stoneBridgeSlides} />
         </div>
         <div className="project-info">
             <h1>{props.name}</h1>
