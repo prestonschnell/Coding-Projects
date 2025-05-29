@@ -10,10 +10,30 @@ const Nav = () => {
       </div>
       <div>
         <ul className="buttons">
-            <li><button>Home</button></li>
-            <li><button>About</button></li>
-            <li><button>Projects</button></li>
-            <li><button>Contact</button></li>
+            <li><button onClick={()=> {
+              window.scroll({
+                top: 0,
+                behavior: 'smooth'
+              })
+            }}>Home</button></li>
+            <li><button onClick={()=> {
+              window.scroll({
+                top: 1325,
+                behavior: 'smooth'
+              })
+            }}>About</button></li>
+            <li><button onClick={()=> {
+              window.scroll({
+                top: 2550,
+                behavior: 'smooth'
+              })
+            }}>Projects</button></li>
+            <li><button onClick={()=> {
+              window.scroll({
+                top: 4300,
+                behavior: 'smooth'
+              })
+            }}>Contact</button></li>
         </ul>
       </div>
     </div>

@@ -5,6 +5,20 @@ display: flex;
 justify-content: space-evenly;
 align-items: center;
 /* border: 2px solid white; */
+animation: appear linear;
+animation-timeline: view();
+animation-range: entry 0% cover 40%;
+}
+
+@keyframes appear {
+    from {
+        opacity: 0;
+        scale: 0.5;
+    }
+    to {
+        opacity: 1;
+        scale: 1;
+    }
 }
 
 .about-section {
