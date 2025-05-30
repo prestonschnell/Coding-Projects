@@ -15,6 +15,8 @@ import SEC from './components/SEC'
 import Hilton from './components/Hilton'
 import NASA from './components/NASA'
 import Simon from './components/Simon'
+import Wireframe from './components/Wireframe'
+import ToDo from './components/toDo'
 
 
 const App = () => {
@@ -32,6 +34,8 @@ const App = () => {
       <Brave name="Brave Ones RPG" description="Brave Ones is a turn-based RPG built in PyGame featuring AI-driven enemy behavior that adapts dynamically to player actions based on health, turn order, and damage probabilities. The game includes a custom frame-based animation system and a responsive UI with real-time feedback, blending AI concepts with immersive visual design to create a compelling gameplay experience." />
       <StoneBridge name="StoneBridge" description="For Stonebridge's annual leadership conference in New Orleans, I designed, modeled, and rendered a complete 3D environment of Le Meridien Hotel's Esplanade Ballroom. Featuring over three unique stage designs inspired by traditional New Orleans themes, the project showcased advanced 3D modeling and PBR lighting techniques, paired with ongoing client collaboration to ensure each detail aligned with their vision."/>
       <Simon name="Simon Says Game" description="This interactive memory game simulates the classic Simon Game using JavaScript and jQuery, demonstrating a strong understanding of event handling, DOM manipulation, and logic control. The code dynamically generates color sequences, tracks user input, and provides immediate feedback through sound and animation, showcasing principles of state management and recursion through function calls like `nextSequence()` and `checkAnswer()`. It reflects an ability to build event-driven applications and apply core computer science skills such as arrays, conditionals, and modular function design."/>
+      <Wireframe name="OpenGL Wireframe Cube" description="This project demonstrates a rotating wireframe cube rendered using Python with OpenGL and Pygame, built entirely from manually defined vertex and triangle data. By structuring the cube through raw geometry and rendering logic, I gained a deeper understanding of 3D transformations, projection matrices, and low-level graphics programming. The result reflects foundational skills in computer graphics and real-time rendering pipelines."/>
+      <ToDo name="To-Do List App" description="This to-do list app offers a clean, functional interface for adding, checking off, and deleting tasks, with persistent storage handled through localStorage. The project reflects practical knowledge of DOM manipulation, event handling, and client-side data persistence. It’s a simple yet effective example of building interactive web applications with vanilla JavaScript."/>
       <Contact />
     </div>
   )
