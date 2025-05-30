@@ -1,11 +1,15 @@
 .nav-bar {
     border-bottom: 2px solid #66b2b2;
-    height: 150px;
+    height: 120px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 10px 120px;
     color: white;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+    background-color: #242424;
 }
 
 .logo {
@@ -17,7 +21,7 @@
 }
 
 .logo img {
-    height: 100px;
+    height: 80px;
     border-radius: 50px;
     border: 1px solid #66b2b2;
 }
