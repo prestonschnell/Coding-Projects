@@ -18,13 +18,13 @@ const Nav = () => {
             }}>Home</button></li>
             <li><button onClick={()=> {
               window.scroll({
-                top: 1400,
+                top: 1325,
                 behavior: 'smooth'
               })
             }}>About</button></li>
             <li><button onClick={()=> {
               window.scroll({
-                top: 2450,
+                top: 3135,
                 behavior: 'smooth'
               })
             }}>Projects</button></li>

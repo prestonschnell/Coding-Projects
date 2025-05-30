@@ -14,6 +14,7 @@ import unreal from '/unreal.png'
 import unity from '/unity.png'
 import adobe from '/adobe.png'
 import './About.css'
+import Headers from './Headers'
 
 const About = () => {
   return (
@@ -21,10 +22,11 @@ const About = () => {
         <div className="about-section">
           <h1>Preston Schnell</h1>
             <img src={profile} alt="Profile Picture" />
-            <p>Hi, I’m a creative problem solver with a background in 3D art, web development, and self-taught software engineering. I’ve always been drawn to the space where visuals and logic meet, whether it’s building sleek interfaces, diving into code, or learning how computer vision works under the hood. Over the years, I’ve balanced full-time work and study while teaching myself programming, graphics, and the math behind machine learning. It hasn’t been a straight path, but it’s made me adaptable, curious, and driven to keep improving. Right now, I’m focused on building projects that combine design and engineering, with a long-term goal of launching tools that help others create.</p>
+            <p>Welcome to my page! My name is Preston and I'm a creative problem solver with a background in 3D art, full stack development, and self-taught software engineering. I’m drawn to the space where visuals, logic, and AI come together, whether it’s building sleek interfaces, writing clean code, or exploring how machine learning works under the surface. Over the years, I’ve balanced full-time work and study while teaching myself programming, graphics, and the math behind intelligent systems. The journey hasn’t been linear, but it’s made me adaptable, detail-focused, and committed to growth. Right now, I’m building tools that combine design and engineering, with long-term goals in SaaS, freelancing, and launching startups.</p>
         </div>
+        {/* <Headers headers="Softwares" /> */}
         <div className="stack-container">
-          <h1 id="stack-header">Software Proficiency</h1>
+          {/* <h1 id="stack-header">Software Proficiency</h1> */}
           <div className="stack-icons">
             <Stack icon={htmlIcon} framework="HTML" />
             <Stack icon={css} framework="CSS" />

@@ -1,11 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Iceland&display=swap');
+
+/* .iceland-regular {
+  font-family: "Iceland", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+} */
 :root {
-  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: "Iceland", sans-serif;
   line-height: 1.5;
   font-weight: 400;
+  padding: 0;
+  margin: 0;
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  /* background: linear-gradient(90deg,rgb(59, 78, 86) 0%, rgb(123, 104, 230) 50%, rgb(84, 115, 128) 100%); */
   /* background-color: #213547; */
   background-size: contain;
 
@@ -14,6 +23,11 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+
+
+
+
 
 a {
   font-weight: 500;
@@ -28,7 +42,7 @@ button {
   border-radius: 8px;
   border: 1px solid transparent;
   padding: 0.6em 1.2em;
-  font-size: 1em;
+  font-size: 1.5em;
   font-weight: 500;
   font-family: inherit;
   background-color: #1a1a1a;
@@ -54,4 +68,124 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+@keyframes move {
+    100% {
+        transform: translate3d(0, 0, 1px) rotate(360deg);
+    }
+}
+
+.background {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background: #140a24;
+    overflow: hidden;
+}
+
+.background span {
+    width: 1vmin;
+    height: 1vmin;
+    border-radius: 1vmin;
+    backface-visibility: hidden;
+    position: absolute;
+    animation: move;
+    animation-duration: 45;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+
+.background span:nth-child(0) {
+    color: #57139a;
+    top: 98%;
+    left: 57%;
+    animation-duration: 13s;
+    animation-delay: -30s;
+    transform-origin: 10vw 7vh;
+    box-shadow: -2vmin 0 0.4890432589191186vmin currentColor;
+}
+.background span:nth-child(1) {
+    color: #3f95a6;
+    top: 56%;
+    left: 24%;
+    animation-duration: 6s;
+    animation-delay: -38s;
+    transform-origin: -10vw -1vh;
+    box-shadow: 2vmin 0 1.1447975435864013vmin currentColor;
+}
+.background span:nth-child(2) {
+    color: #57139a;
+    top: 3%;
+    left: 99%;
+    animation-duration: 55s;
+    animation-delay: -25s;
+    transform-origin: 23vw 1vh;
+    box-shadow: 2vmin 0 0.25201087763981256vmin currentColor;
+}
+.background span:nth-child(3) {
+    color: #583C87;
+    top: 84%;
+    left: 7%;
+    animation-duration: 48s;
+    animation-delay: -28s;
+    transform-origin: -10vw -8vh;
+    box-shadow: -2vmin 0 0.7737960343759512vmin currentColor;
+}
+.background span:nth-child(4) {
+    color: #57139a;
+    top: 9%;
+    left: 50%;
+    animation-duration: 43s;
+    animation-delay: -12s;
+    transform-origin: -12vw 20vh;
+    box-shadow: -2vmin 0 0.5736041711054447vmin currentColor;
+}
+.background span:nth-child(5) {
+    color: #3f95a6;
+    top: 95%;
+    left: 88%;
+    animation-duration: 7s;
+    animation-delay: -25s;
+    transform-origin: -11vw 5vh;
+    box-shadow: 2vmin 0 1.216919915011244vmin currentColor;
+}
+.background span:nth-child(6) {
+    color: #583C87;
+    top: 79%;
+    left: 58%;
+    animation-duration: 21s;
+    animation-delay: -17s;
+    transform-origin: 24vw -22vh;
+    box-shadow: -2vmin 0 0.8182994620261043vmin currentColor;
+}
+.background span:nth-child(7) {
+    color: #57139a;
+    top: 99%;
+    left: 59%;
+    animation-duration: 42s;
+    animation-delay: -39s;
+    transform-origin: 17vw -4vh;
+    box-shadow: 2vmin 0 0.7298112814226069vmin currentColor;
+}
+.background span:nth-child(8) {
+    color: #57139a;
+    top: 41%;
+    left: 39%;
+    animation-duration: 53s;
+    animation-delay: -30s;
+    transform-origin: 18vw 25vh;
+    box-shadow: -2vmin 0 1.1924047259410333vmin currentColor;
+}
+.background span:nth-child(9) {
+    color: #3f95a6;
+    top: 69%;
+    left: 19%;
+    animation-duration: 44s;
+    animation-delay: -46s;
+    transform-origin: -21vw 12vh;
+    box-shadow: -2vmin 0 0.9367461224343508vmin currentColor;
 }

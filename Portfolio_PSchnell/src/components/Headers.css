@@ -7,10 +7,10 @@
     color: white;
     font-size: 25px;
     /* border: 2px solid white; */
-    padding: 150px 0px;
+    padding: 100px 0px 50px 0px;
     animation: appear linear;
     animation-timeline: view();
-    animation-range: entry 0% cover 40%;
+    animation-range: entry 10% cover 40%;
 }
 
 @keyframes appear {

@@ -13,7 +13,7 @@ const ImageScroller = ({slides}) => {
 
     const leftArrow = {
         position: 'absolute',
-        top: '35%',
+        top: '50%',
         transform:'translate(0, -50%)',
         left: '32px',
         fontSize: '30px',
@@ -24,7 +24,7 @@ const ImageScroller = ({slides}) => {
 
     const rightArrow = {
         position: 'absolute',
-        top: '35%',
+        top: '50%',
         transform:'translate(0, -50%)',
         right: '32px',
         fontSize: '30px',

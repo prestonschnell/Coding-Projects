@@ -28,12 +28,14 @@ const Contact = () => {
             <a href="https://prestonschnell.artstation.com/" target="_blank"><img src={artstation} alt="" /></a>
         </div>
       </div>
+      <div className="back-container">
       <button onClick={() => {
         window.scroll({
           top: 0,
           behavior: 'smooth'
         })
       }}>Back to Top</button>
+      </div>
     </div>
   )
 }

@@ -5,7 +5,7 @@ import './hero.css'
 const Hero = () => {
   return (
     <div className="hero-container">
-      <h1 id='hero-header'>Hello, I'm Preston. I'm a Multimedia Developer.</h1>
+      <h1 id='hero-header'>Hi, I'm Preston. I'm a Multimedia Developer.</h1>
       <button onClick={() => {
         window.scroll({
           top: 1325,

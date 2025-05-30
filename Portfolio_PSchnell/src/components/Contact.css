@@ -5,8 +5,13 @@
     align-items: center;
     height: 500px;
     width: 100%;
-    background-color: #444952;
+    background-color: black;
     color: white;
+    padding-top: 50px;
+}
+
+.contact-container p {
+    font-size: 12pt;
 }
 
 .form-container {
@@ -18,6 +23,9 @@
     max-height: 50px;
     max-width: 100px;
     margin: 20px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .form-container input {
@@ -49,4 +57,13 @@
     align-items: center;
     /* border: 2px solid black; */
     margin: 20px 0px;
+}
+
+.back-container {
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
 }
