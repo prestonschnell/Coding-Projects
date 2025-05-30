@@ -2,10 +2,10 @@
     /* colors */
     --primary-color: #dfdfe2;
     --secondary-color: #ffffff;
-    --app-background-color: #4d4d62;
-    --background-color: #1b1b32;
+    --app-background-color: rgb(34, 30, 30);
+    --background-color: #181f29;
     --foreground-color: #3b3b4f;
-    --highlight-color: #f1be32;
+    --highlight-color: 	#00b0bf;
   
     /* font sizes */
     --root-font-size: 16px;
@@ -94,8 +94,10 @@
   .fcc-title,
   .playlist-title {
     color: var(--secondary-color);
-    margin: 0 10px;
+    margin: 0 10;
     font-family: var(--font-headline);
+    width: 100px;
+    text-align: center;
   }
   
   .player-content {
