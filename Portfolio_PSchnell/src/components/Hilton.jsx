@@ -1,20 +1,22 @@
 import React from 'react'
 import "./Projects.css"
-import YouTubeEmbed from './YouTubeEmbed'
+import ImageScroller from './ImageScroller';
+import hiltonSlides from './hiltonSlides';
 
-const VideoLeft = (props) => {
+const Hilton = (props) => {
   return (
     <div className='projects-container'>
         <div className="project-info">
             <h1>{props.name}</h1>
             <p>{props.description}</p>
-            <button><a href="https://github.com/prestonschnell/ZenScape" target='_blank'>Learn More</a></button>
+            <button>Learn More</button>
         </div>
         <div className="image-container">
-            <YouTubeEmbed videoId="ZlESNkp2mXw" />
+            <ImageScroller slides={hiltonSlides}/>
         </div>
     </div>
   )
 }
 
-export default VideoLeft;
+
+export default Hilton

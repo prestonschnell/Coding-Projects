@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import "./Projects.css"
+import next from '../../public/next.png'
+import previous from '../../public/previous.png'
 
 const ImageScroller = ({slides}) => {
     const [currentIndex, setCurrentIndex] = useState(0);
@@ -60,8 +62,8 @@ const ImageScroller = ({slides}) => {
 
     return (
     <div style={sliderStyles}>
-        <div style={leftArrow} onClick={goToPrevious}>Prev</div>
-        <div style={rightArrow} onClick={goToNext}>Next</div>
+        <div style={leftArrow} onClick={goToPrevious}><img className="scroller-controls" src={previous} alt="" /></div>
+        <div style={rightArrow} onClick={goToNext}><img className="scroller-controls" src={next} alt="" /></div>
         <div style={slideStyles}></div>
     </div>
     )
